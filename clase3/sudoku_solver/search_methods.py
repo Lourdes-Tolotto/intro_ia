@@ -56,7 +56,7 @@ def gradient_descent_sudoku(initial_state: dict, fixed_squares: dict, max_iterat
     return best_state, cost_state
 
 
-def gradient_descent_random_sudoku(initial_state: dict, fixed_squares: dict, max_iterations: int = 1000,
+def gradient_descent_random_sudoku(initial_state: dict, fixed_squares: dict, max_iterations: int = 200,
                                    move_in_zero: bool = False) -> tuple:
     """
     Realiza la optimización del Sudoku utilizando el método de descenso de gradiente estocástico.
